@@ -5,3 +5,14 @@ year I'm trying to do each challenge in a different programming language.
 
 * Day 1: Bash
 * Day 2: SQL (SQLite 3)
+* Day 3: MATLAB (GNU Octave)
+
+Planned languages:
+* C++
+* Python
+* C
+* Java
+* Javascript
+* Rust
+* Ruby
+* Haskell
