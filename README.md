@@ -12,6 +12,7 @@ and compilers used are listed where applicable.
 Planned languages:
 * C++
 * Python
+* Racket
 * C
 * Java
 * Javascript
