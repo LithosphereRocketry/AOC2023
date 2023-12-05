@@ -8,6 +8,7 @@ and compilers used are listed where applicable.
 * Day 2: SQL (SQLite 3)
 * Day 3: MATLAB (GNU Octave)
 * Day 4: FORTRAN (gfortran)
+* Day 5: Go
 
 Planned languages:
 * C++
