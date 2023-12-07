@@ -10,6 +10,7 @@ and compilers used are listed where applicable.
 * Day 4: FORTRAN (gfortran)
 * Day 5: Go
 * Day 6: Pencil and paper (with scientific calculator)
+* Day 7: Tcl
 
 Planned languages:
 * C++
