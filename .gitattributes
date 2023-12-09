@@ -1,2 +1,3 @@
 *.sql linguist-detectable=true
+*.rock linguist-language=rockstar
 *.rock linguist-detectable=true
