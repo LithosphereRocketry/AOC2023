@@ -11,6 +11,7 @@ and compilers used are listed where applicable.
 * Day 5: Go
 * Day 6: Pencil and paper (with scientific calculator)
 * Day 7: Tcl
+* Day 8: Pascal (pt2 WIP)
 
 Planned languages:
 * C++
