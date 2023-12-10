@@ -13,7 +13,7 @@ and compilers used are listed where applicable.
 * Day 7: Tcl
 * Day 8: Pascal (pt2 WIP)
 * Day 9: Rockstar (rocky)
-* Day 10: Excel (LibreOffice Calc) (pt2 WIP)
+* Day 10: Excel (LibreOffice Calc)
 
 Planned languages:
 * C++

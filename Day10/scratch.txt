@@ -1,1 +1,0 @@
-=XOR(A1, OR($pgrid_corr.A1="|", $pgrid_corr.A1="F", $pgrid_corr.A1="L"))
