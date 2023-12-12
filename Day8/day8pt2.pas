@@ -5,6 +5,22 @@ begin
             + (ord(line[ind+1]) - ord('A'))*26
             + (ord(line[ind+2]) - ord('A')) + 1;
 end;
+function greatestCommonDivisor(a, b: Int64): Int64;
+var
+  temp: Int64;
+begin
+  while b <> 0 do
+  begin
+    temp := b;
+    b := a mod b;
+    a := temp
+  end;
+  result := a
+end;
+function leastCommonMultiple(a, b: Int64): Int64;
+begin
+  result := b * (a div greatestCommonDivisor(a, b));
+end;
 var
     input: array of boolean;
     c: char;
@@ -18,6 +34,8 @@ var
     starts: array of integer;
     offset: array of longint;
     period: array of longint;
+    hits: array of boolean;
+    fullperiod: longint;
     i, j: integer;
 begin
     setLength(input, 0);
@@ -65,5 +83,18 @@ begin
         write(period[i]);
         write('*n + ');
         writeln(offset[i]);
-    end
+    end;
+    fullperiod := 1;
+    for i := 1 to length(period)-1 do
+        fullperiod := lcm(fullperiod, period[i]);
+    for i := 1 to length(hits)-1 do begin
+        setLength(hits[i], fullperiod);
+        loc := starts[i];
+        for j := 1 to fullperiod-1 do begin
+            if loc mod 26 = 0 then
+                hits[i][(j + offset[i]) mod fullperiod] := true;
+        end;
+    end;
+    for i := 1 to fullperiod-1 do begin
+    
 end.
