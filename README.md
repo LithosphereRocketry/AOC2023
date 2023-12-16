@@ -15,6 +15,7 @@ and compilers used are listed where applicable.
 * Day 9: Rockstar (rocky)
 * Day 10: Excel (LibreOffice Calc)
 * Day 11: D (gdc)
+* Day 12: Erlang
 
 Planned languages:
 * C++
