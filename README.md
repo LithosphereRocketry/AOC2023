@@ -16,6 +16,7 @@ and compilers used are listed where applicable.
 * Day 10: Excel (LibreOffice Calc)
 * Day 11: D (gdc)
 * Day 12: Erlang
+* Day 13: C# (MCS/Mono)
 
 Planned languages:
 * C++
