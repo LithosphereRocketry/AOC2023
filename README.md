@@ -18,6 +18,7 @@ and compilers used are listed where applicable.
 * Day 12: Erlang
 * Day 13: C# (MCS/Mono)
 * Day 14: Julia
+* Day 15: Lua (pt2 WIP)
 
 Planned languages:
 * C++
