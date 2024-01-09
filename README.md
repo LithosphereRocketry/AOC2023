@@ -17,6 +17,7 @@ and compilers used are listed where applicable.
 * Day 11: D (gdc)
 * Day 12: Erlang
 * Day 13: C# (MCS/Mono)
+* Day 14: Julia
 
 Planned languages:
 * C++
